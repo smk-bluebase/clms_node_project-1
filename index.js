@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+
+let name = "mohan";
 var moment = require('moment');
 app.locals.moment = moment; 
 //const expressLayouts = require('express-ejs-layouts');
